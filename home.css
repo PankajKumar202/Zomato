@@ -1,0 +1,719 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;600&family=Quicksand&family=Raleway:wght@300&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: auto;
+
+}
+/* darkmode */
+.myDark{
+    background-color: #192734 !important;
+    color: white !important;
+}
+.myCont{
+    background-color: #192734 !important;
+    color: white !important;
+}
+
+.quickT{
+    color:white !important;
+}
+.quickS{
+    color:white !important;
+}
+.myLogo{
+    background-color:#192734 !important ;
+}
+.myHeading{
+    background-color:#192734 !important ;
+}
+/*  */
+.container-fluid{
+    background-color: #0e0462;
+}
+.navbar-brand{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: white !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+}
+/* navbar */
+.navbar-nav{
+    margin-left:80%;
+    padding-left:10px;
+}
+.nav-link{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 0.8%;
+    
+    color: white !important;
+    font-weight: bold !important;
+
+}
+.nav-link:hover{
+    transform: scale(1.1);
+}
+.form-check-label{
+    font-family: 'Outfit', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+    margin-left: -40%;
+}
+.form-check-input{
+    position: absolute;
+    margin-top: 0.9%;
+    margin-left: 1% !important;
+}
+
+/* carousal css */
+.carousel-item>img{
+    height:500px;
+    width: 100%;
+    filter: blur(2px);
+   
+    
+}
+/* css logo*/
+#logo{
+    border: 2px solid white;
+    border-radius: 75px;
+    height: 150px;
+    width: 150px;
+    background-color:#0e0462;
+    font-size: 60px;
+    position: absolute;
+    margin:auto;
+    margin-left: 46%;
+    margin-top: -35%;
+}
+#logo > span{
+    position: absolute;
+  
+    margin-left: 21%;
+    margin-top: 20%;
+    color:#fff;
+}
+#dark{
+    width: 25%;
+    height: auto;
+    background-color: white !important;
+ border: 2px solid black !important;
+ border-radius: 50px !important;
+}
+/* heading */
+
+.heading{ 
+     border: 2px solid white;
+     border-radius: 10px;
+     background-color: #0e0462;
+    position: absolute;   
+    margin-left: 23%;
+    margin-top: -22%;
+    color: white !important;
+    font-weight: 600;
+    font-size: 43px !important;
+    
+
+}
+.dropdown{
+    height: 50px;
+    width:60%;
+    margin-left: 26%;
+    margin-top: -16%;
+    position: absolute;
+
+}
+select{
+    height: 60px;
+    width: 35%;
+}
+.restaurant{
+    width:50%;
+}
+/*  */
+/* navbar ends */
+#QuickSearch{
+    
+   display: inline-block;
+    width: 100%;
+    padding-bottom: 2%;
+    margin-top: 2.5%;
+    /* margin-left: 1%; */
+}
+.Quick-Heading{
+    display: block;
+    color:#192f60;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+}
+.Quick-Subheading{
+    line-height: 2;
+    color:grey;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: 2%;
+}
+.Tile-Container{
+    height: 200px;
+    width: 30%;
+    float:left;
+    border: 1px double  darkgrey;
+    background-color: white;
+    /* border-radius: 40px; */
+    margin-top: 2%;
+    margin-left: 2%;
+    /* box-shadow: 10px 16px 16px grey; */
+}
+.Tile-Container:hover{
+  
+    transform: scale(1.1);
+
+    
+}
+.Tile-Component{
+height: 72%;
+
+}
+.Tile-Component>img{
+    width: 101.5%;
+    height: 101%;
+    /* border-radius: 40px; */
+    margin-left: -3px;
+    margin-top: -3px;
+    border: 3px solid transparent;
+}
+.Tile-Component2{
+display: inline-block;
+color:#192f60;
+font-size: 18px;
+font-weight: bolder;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-left: 40%;
+}
+.Component-Subheading{
+display: inline-block;
+line-height: 1;
+color:grey;
+font-size: 14px;
+font-weight: bolder;
+font-family:Georgia, 'Times New Roman', Times, serif;
+margin-left: 4%;
+
+}
+
+/* Coup Css */
+
+.coupon{
+border:2px solid black;
+margin-top:-36%;
+height:500px;
+width:50%;
+margin-left: 25%;
+position: absolute;
+background-color:white;
+/* visibility: hidden; */
+z-index: 100;
+
+}
+.coupon>button{
+    float:right;
+    color: white;
+    background: black;
+    width: 7%;
+}
+.coupon>img{
+    width:100%;
+}
+
+.inside1{
+    /* border: 2px solid black; */
+    background-color: white;
+    height:178px;
+    width: 100%;
+    margin-left: 0%;
+    /* margin-top: -10%; */
+}
+.inside1>input{
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.inside1>button{
+    margin-left: -19.3%;
+    font-size: 12px;
+    margin-top: 8%;
+    height: 7%;
+    position: absolute;
+    z-index: 100;
+    background-color: rgb(91, 89, 89);
+    color: rgb(247, 247, 247)
+}
+#Output{
+    margin-top:8%;
+}
+footer{
+    /* margin-top:35%; */
+    position: absolute;
+    background-color: black;
+    color:white;
+    display: block;
+    width:100%;
+    
+}
+.icons1{
+    visibility: hidden;
+}
+
+
+
+@media screen and (min-width:1000px) and (max-width:1200px){
+            
+            
+    #logo{
+        margin-top: -40%;
+    }   
+   .heading{
+    
+       margin-top: -24%;
+       font-size: 35px !important;
+   margin-left: 24%;
+   
+   }
+   .dropdown{
+       
+       margin-top: -14%;
+   
+
+   
+   } 
+
+   select{
+       height: 50px;
+       
+   }
+
+   .coupon{
+  
+    margin-top:-42%;
+    height:250px;
+    
+    
+  
+    
+    }
+   .inside1{
+    /* border: 2px solid black; */
+    background-color: white;
+    height:178px;
+    width: 100%;
+    margin-left: 0%;
+    /* margin-top: -10%; */
+}
+.inside1>input{
+    margin-top: 2%;
+    margin-left: 35%;
+}
+.inside1>button{
+    margin-left: -25.3%;
+  
+    height:40px;
+ 
+}
+#Output{
+    margin-top:8%;
+}
+}
+
+
+@media screen and (min-width:800px) and (max-width:1000px){
+    #logo{
+        margin-top:-50%;
+        margin-left:42%
+    }    
+.heading{
+    position:absolute;
+  margin-top: -29%;
+
+  font-size:30px !important;
+  
+
+
+margin-left: 21%;
+}
+.dropdown{
+  
+  margin-top: -20%;
+
+
+
+}  
+select{
+    width:40%;
+}
+    .Tile-Container{
+        height: 200px;
+        width: 40%;
+        margin-left:10%;
+    }
+    .Quick-Heading{
+        margin-left:30%;
+    }
+    .Quick-Subheading{
+        margin-left:30%;
+    }
+
+option{
+    font-size: 12px;
+}
+.Component-Subheading{
+    font-size: 12px;
+}
+#dark{
+    width: 31%;
+    height: auto;
+}
+
+.coupon{
+  
+    margin-top:-50%;
+    height:250px;
+    
+    
+  
+    
+    }
+   .inside1{
+    /* border: 2px solid black; */
+    background-color: white;
+    height:178px;
+    width: 100%;
+    margin-left: 0%;
+    /* margin-top: -10%; */
+}
+.inside1>input{
+    margin-top: 2%;
+    margin-left: 30%;
+}
+.inside1>button{
+    margin-left: -33.3%;
+    margin-top:12%;
+    height:35px;
+ 
+}
+#Output{
+    margin-top:15%;
+}
+
+}
+@media screen and (min-width:600px) and (max-width:800px){
+    #logo{
+        margin-top:-62%;
+        margin-left:40%;
+        width:130px;
+        height:130px;
+       
+    }
+    #logo > span{
+        font-size: 55px;
+    }
+    #dark{
+        width: 30%;
+        height: auto;
+    }
+    .Tile-Container{
+        height: 200px;
+        width: 50%;
+        margin-left:25%;
+    }
+    .heading{
+        box-sizing:border-box;
+        width:62%;
+        height:auto;
+        margin-top:-39%;
+        font-size:19px !important;
+        margin-left:20%;
+        
+       
+        
+    }
+    .dropdown{
+        
+        margin-top: -26%;
+        margin-left: 25%;
+    }
+   
+ 
+    
+    
+   
+    .Quick-Heading{
+        margin-left:30%;
+    }
+    .Quick-Subheading{
+        margin-left:30%;
+        font-size: 12px;
+    }
+    
+    .Tile-Component2{
+        font-size: 15px;
+        
+    }
+    
+    .Component-Subheading{
+        font-size: 10px;
+
+    }
+    option{
+        font-size: 12px;
+    }
+    
+    .coupon{
+  
+        margin-top:-60%;
+        height:250px;
+        
+        
+      
+        
+        }
+       .inside1{
+        /* border: 2px solid black; */
+        background-color: white;
+        height:178px;
+        width: 100%;
+        margin-left: 0%;
+        /* margin-top: -10%; */
+    }
+    .inside1>input{
+        margin-top: 2%;
+        margin-left: 20%;
+    }
+    .inside1>button{
+        margin-left: -37.3%;
+        margin-top:12%;
+        height:35px;
+     
+    }
+    #Output{
+        margin-top:15%;
+    }
+}
+@media screen and (min-width:400px) and (max-width:600px){
+    #logo{
+        margin-top:-83%;
+        margin-left:35%;
+        width: 100px;
+        height: 100px;
+    }
+    #logo > span{
+        font-size: 30px;
+        text-align: center;
+        margin-left:30%;
+        margin-top:22%;
+    }
+    #dark{
+        width: 60%;
+        height: auto;
+    }
+    .heading{
+        margin-top:-53%;
+        font-size: 14px !important;
+        font-weight:bold;
+        width:55%;
+        height: 40px;
+        box-sizing: border-box;
+        margin-left: 22%;
+        border-radius: 0px;
+                
+    }
+    .dropdown{
+        
+        margin-top: -40%;
+        margin-left: 25%;
+    }
+    select{
+        height: 30px;
+        width: 100px;
+    }
+    #heading>h2{
+        text-align: center;
+    }
+ 
+    
+    
+  
+   
+    .Quick-Heading{
+        margin-left:24%;
+        font-size: 23px;
+    }
+    .Quick-Subheading{
+        margin-left:25%;
+        font-size: 12px;
+    }
+    
+    .Tile-Component2{
+        font-size: 15px;
+        
+    }
+    .Tile-Container{
+        height: 200px;
+        width: 60%;
+        margin-left:20%;
+    }
+    
+    .Component-Subheading{
+        font-size: 10px;
+
+    }
+    option{
+        font-size: 12px;
+    }
+    .coupon{
+  
+        margin-top:-80%;
+        height:250px;
+        
+        
+      
+        
+        }
+       .inside1{
+        /* border: 2px solid black; */
+        background-color: white;
+        height:178px;
+        width: 100%;
+        margin-left: 0%;
+        /* margin-top: -10%; */
+    }
+    .inside1>input{
+        margin-top: 2%;
+        margin-left: 15%;
+        width: 60%;
+    }
+    .inside1>button{
+        margin-left: -45.3%;
+        margin-top:17%;
+        height:30px;
+     
+    }
+    #Output{
+        margin-top:15%;
+    }
+}
+@media screen and (min-width:200px) and (max-width:400px)
+{
+    body{
+        width:100%;
+    }
+   
+ 
+    #logo{
+        margin-top:-80%;
+        margin-left:35%;
+        width: 100px;
+        height: 100px;
+      
+    }
+    #logo > span{
+        font-size: 30px;
+        text-align: center;
+        margin-left:30%;
+        margin-top:22%;
+    }
+    
+    .heading{
+        margin-top:-52%;
+        font-size: 12px !important;
+        font-weight:bold;
+        width:55%;
+        height: 40px;
+        box-sizing: border-box;
+        margin-left: 24%;
+        border-radius: 0px;
+                
+    }
+    .dropdown{
+        
+        margin-top: -30%;
+        margin-left: 25%;
+    }
+    select{
+        height: 30px;
+        width: 80px;
+    }
+    .Quick-Heading{
+        margin-left:24%;
+        font-size: 23px;
+    }
+    .Quick-Subheading{
+        margin-left:25%;
+        font-size: 12px;
+    }
+    
+    .Tile-Component2{
+        font-size: 15px;
+        
+    }
+    .Tile-Container{
+        height: 200px;
+        width: 60%;
+        margin-left:20%;
+    }
+    
+    .Component-Subheading{
+        font-size: 10px;
+
+    }
+    option{
+        font-size: 12px;
+    }
+    footer{
+        width:100%;
+    }
+    .coupon{
+  
+        margin-top:-100%;
+        height:250px;
+        
+        
+      
+        
+        }
+       .inside1{
+        /* border: 2px solid black; */
+        background-color: white;
+        height:178px;
+        width: 100%;
+        margin-left: 0%;
+        /* margin-top: -10%; */
+    }
+    .inside1>input{
+        margin-top: 2%;
+        margin-left: 20%;
+        width:50%;
+    }
+    .inside1>button{
+        margin-left: -37.3%;
+        margin-top:20%;
+        height:35px;
+     
+    }
+    #Output{
+        margin-top:25%;
+    }
+}
+
+
+
+ 

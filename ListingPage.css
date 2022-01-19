@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    margin: auto;
+    background-color: #fbfbfb;
+
+}
+#header{
+    height:60px;
+    
+    background-color:#ff3f3f;
+}
+#heading{
+    font-family: Poppins;
+    color:black;
+    font-size: 25px;
+    font-style: italic;
+    margin-top:10px;
+    margin-left: 20px;
+    position:absolute;
+}
+.zomato{
+    color:white ;
+}
+.icons{
+    float: right;
+    
+}
+
+.icons:hover{
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    width:50px;
+    height: 50px;
+    box-shadow: 0 10px 15px 0 #303842,0 17px 40px 0 #2f3741;
+    transition-timing-function: ease-in-out;
+}
+
+.listing-Container{
+   
+    width:80%;
+    height: 800px;
+    margin-left: 7%;
+}
+
+.filter-Container{
+  
+    width:24%;
+    height: 700px;
+   float: left;
+    margin-left: 3%;
+    margin-top: 2%;
+    position:absolute;
+    box-shadow: 0 4px 15px 0 grey;
+}
+.filter{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 154px 10px 20px;
+    color:#192f60;
+    line-height: 1.5;
+}
+.select{
+    font-size: 18px;
+    font-weight: normal;
+    margin: 10px 102px 11px 20px;
+    color:#192f60;
+    line-height: 1.5;
+}
+.restaurant{
+text-align: center;
+display: block;
+margin: 0 154px 10px 20px;
+width: 278px;
+    height: 30px;
+}
+
+
+.filter-item{
+
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 102px 11px 20px;
+    display:block;
+    color:#192f60;
+    font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+
+
+}
+input{
+    display: inline-block;
+    color: black;
+    margin: 10px 102px 11px 20px;
+}
+label{
+  margin-left:-26%;
+}
+
+.items-Container{
+    
+    width:50%;
+    height: 1250px;
+    float: left;
+    margin-left: 29%;
+    margin-top: 2%;
+    position: absolute;
+
+}
+/*  */
+.heading{
+    font-size: 36px;
+    margin-left:10%;
+    margin-top:3%;
+    font-weight: bold;
+    color: #192f60;
+    line-height: 55px;
+}
+
+
+.Tile-Container{
+    
+    border-radius: 30px;
+    width: 671px;
+    height: 291px;
+    margin-top: 2%;
+    box-shadow: 0 4px 15px 0 grey;
+}
+.Tile-Component{
+    width: 28%;
+    height: 68%;
+ 
+}
+.Tile-Component>img{
+    width: 123%;
+    
+    height: 103%;
+  
+    border-radius: 40px;
+}
+.Tile-Component2{
+   
+    width: 84px;;
+    float:right;
+    height: 15%;
+    
+    margin-top: -30%;
+    margin-right: 56%;
+}
+.Swaad{
+    margin-left:47%;
+    color: #192f60;
+    font-weight: bold;
+}
+.giani{
+    margin-top: 20%;
+    margin-left: 29%;
+    color: #192f60;
+    font-weight: bold;
+}
+.bon{
+margin-left: 32%;
+color: #192f60;
+font-weight: bold;
+}
+.Indus{
+margin-left: 32%;
+color: #192f60;
+font-weight: bold;
+}
+.Appetite{
+    margin-left: -5%;
+}
+.Flavour{
+    margin-left: -35%;
+}
+.Content-Component{
+    
+   
+    float:right;
+    margin-top: -23%;
+    margin-right: 29%;
+}
+.Content-Component2{
+  
+    float:right;
+    width: 23%;
+    margin-top: -14%;
+    margin-right: 38%;
+}
+.details{
+    border: 2px solid black;
+ 
+    float:right;
+    margin-right: 47%;
+    margin-top: -10%;
+}
+hr{
+    margin-top:2%;
+}
+.Cost{
+    
+    margin-top: 2%;
+    margin-left: 2%;
+    
+}
+
+.checked{
+    color:orange;
+    font-weight: bold;
+    margin-left: 2%;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top:34%;
+    background-color: black;
+    color:white;
+    
+}
+
